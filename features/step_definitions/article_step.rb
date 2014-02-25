@@ -54,7 +54,9 @@ When /^I (?:follow|click on) "?(.*?)"?$/ do |link|
   #description link do
   #  it{should have_link(link,href: new_article_path)}
   #end
-  find("a", :text => "#{link}").click
+  #find("a", :text => link).click
+  #find(:css, "div#contents > a").click
+  find(:id, "new_article").click
   #click_button link
   #click_link link
 end
