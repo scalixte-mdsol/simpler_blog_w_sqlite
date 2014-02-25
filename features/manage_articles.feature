@@ -3,6 +3,7 @@ Feature:
   On Behalf of some author
   I want to create a single article with text content
 
+  @project
   @single
   Scenario: Create articles by author only
     Given I have articles authored by Julio, Marino, and Garcia
@@ -11,6 +12,7 @@ Feature:
     And I should see "Marino"
     And I should see "Garcia"
 
+  @project
   @multiple
   @first
   Scenario: Create multiple articles onto the database
@@ -24,6 +26,7 @@ Feature:
     Then I should see under "Author": Stanley, Julio, and Ceasar
     And I should have 3 articles
 
+  @project
   @multiple
   @second
   Scenario Outline: Create multiple articles and verify each author and title onto the database

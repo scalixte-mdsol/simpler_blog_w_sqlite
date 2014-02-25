@@ -58,10 +58,12 @@ When /^I (?:follow|click on) "?(.*?)"?$/ do |link|
   #end
   #puts page.body
   #page.find("a", :text => link).click
-  find(:css, "div#contents > p > a").click
-  #page.find(:id, "new_article").click
+  #find(:css, "#contents > p").click
+  page.find(:id, "new_article").click
+  #page.body.click_link link
   #click_button link
   #click_link link
+  #page.driver.browser.execute_script("$('#contents > a').click();")
 end
 
 When /^I (?:fill in|enter a value for) "(.*?)" (?:with|as) "(.*?)"$/ do |field, value|

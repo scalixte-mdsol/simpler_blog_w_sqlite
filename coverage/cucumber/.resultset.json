@@ -1,14 +1,18 @@
 {
   "Cucumber Features": {
     "coverage": {
+      "/Users/scalixte/Development/Projects/tutorials/cucumber/simpler_blog_w_sqlite/app/models/article.rb": [
+        1,
+        null
+      ],
       "/Users/scalixte/Development/Projects/tutorials/cucumber/simpler_blog_w_sqlite/app/controllers/articles_controller.rb": [
         1,
         1,
-        6,
+        9,
         null,
         null,
         1,
-        3,
+        0,
         null,
         null,
         1,
@@ -22,11 +26,11 @@
         null,
         null,
         1,
-        3,
+        0,
         null,
-        3,
-        3,
-        3,
+        0,
+        0,
+        0,
         null,
         0,
         null,
@@ -35,7 +39,7 @@
         1,
         null,
         1,
-        3,
+        0,
         null,
         null
       ],
@@ -63,12 +67,8 @@
       "/Users/scalixte/Development/Projects/tutorials/cucumber/simpler_blog_w_sqlite/app/helpers/articles_helper.rb": [
         1,
         null
-      ],
-      "/Users/scalixte/Development/Projects/tutorials/cucumber/simpler_blog_w_sqlite/app/models/article.rb": [
-        1,
-        null
       ]
     },
-    "timestamp": 1393306691
+    "timestamp": 1393307631
   }
 }
