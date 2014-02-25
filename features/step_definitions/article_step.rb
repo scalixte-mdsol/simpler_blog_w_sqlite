@@ -52,12 +52,13 @@ end
 
 When /^I (?:follow|click on) "?(.*?)"?$/ do |link|
   page.body.should have_link(link)
+  #click_link(find(:id, "new_article"))
   #description link do
   #  it{should have_link(link,href: new_article_path)}
   #end
   #find("a", :text => link).click
   #find(:css, "div#contents > a").click
-  find(:id, "new_article").click
+  page.find(:id, "new_article").click
   #click_button link
   #click_link link
 end
