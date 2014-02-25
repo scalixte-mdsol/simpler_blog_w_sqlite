@@ -51,6 +51,7 @@ Then /^I should (?:have|see) ([0-9]+) articles?$/ do |count|
 end
 
 When /^I (?:follow|click on) "?(.*?)"?$/ do |link|
+  page.body.should have_link(link)
   #description link do
   #  it{should have_link(link,href: new_article_path)}
   #end
