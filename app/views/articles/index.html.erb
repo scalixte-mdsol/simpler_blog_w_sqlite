@@ -1,0 +1,10 @@
+<%=h provide(:title, @article.title + ' by ' + @article.author) %>
+
+<%= flash[:notice] %>
+<div id="main">
+  <div id="content">
+    <h1>Title: <%=h @article.title%></h1><br/>
+    <h3>By: <%=h @article.author%></h3><br/>
+    <textarea rows="5" cols="50" readonly><%=h @article.content%></textarea>
+  </div>
+</div>

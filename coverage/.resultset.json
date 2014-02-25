@@ -1,0 +1,74 @@
+{
+  "Cucumber Features": {
+    "coverage": {
+      "/Users/scalixte/Development/Projects/tutorials/cucumber/blog_tut_p7/app/models/article.rb": [
+        1,
+        null
+      ],
+      "/Users/scalixte/Development/Projects/tutorials/cucumber/blog_tut_p7/app/controllers/articles_controller.rb": [
+        1,
+        1,
+        22,
+        null,
+        null,
+        1,
+        6,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        6,
+        null,
+        6,
+        6,
+        6,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        6,
+        null,
+        null
+      ],
+      "/Users/scalixte/Development/Projects/tutorials/cucumber/blog_tut_p7/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/scalixte/Development/Projects/tutorials/cucumber/blog_tut_p7/app/helpers/application_helper.rb": [
+        1,
+        null,
+        1,
+        28,
+        28,
+        28,
+        0,
+        null,
+        28,
+        null,
+        null,
+        null
+      ],
+      "/Users/scalixte/Development/Projects/tutorials/cucumber/blog_tut_p7/app/helpers/articles_helper.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1392054252
+  }
+}

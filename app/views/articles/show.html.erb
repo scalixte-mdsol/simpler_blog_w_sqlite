@@ -1,0 +1,25 @@
+<% provide(:title, 'There are ' + @articles.count.to_s + ' articles') %>
+<%= flash[:notice] %>
+<div id="main">
+  <div id="top">
+    <% if @articles.nil? %>
+        <h1>There are no articles</h1><br />
+    <% end %>
+    <% if !@articles.nil? %>
+        <h1><%= h @articles.count%></h1><br />
+    <% end %>
+  </div>
+  <div id="contents">
+    <h1>These are the articles</h1><br />
+    <div id="article">
+      <% for article in @articles %>
+          <h2>Title: <%=h article.title %></h2>
+          <h3>By <%=h article.author %></h3>
+          <br />
+          <p><%= link_to "View Article",:action=>"index", :id=>article.id %></p><br />
+          <p><%= link_to "View Article",:action=>"update", :id=>article.id %></p><br />
+      <% end %>
+    </div>
+    <p><%= link_to "New Article", new_article_path %></p>
+  </div>
+</div>
