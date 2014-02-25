@@ -26,7 +26,7 @@
       "version": ""
    }
 }
-[0.236][INFO]: Populating Preferences file: {
+[0.235][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -91,14 +91,14 @@
       }
    }
 }
-[0.238][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --full-memory-crash-report --ignore-certificate-errors --load-extension=/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.GK0RcD/internal --logging-level=1 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12485 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --use-mock-keychain --user-data-dir=/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.DLMVeC data:,
-[0.753][INFO]: RESPONSE InitSession {
+[0.238][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --full-memory-crash-report --ignore-certificate-errors --load-extension=/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.KHEEKf/internal --logging-level=1 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12197 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --use-mock-keychain --user-data-dir=/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.dR3lIQ data:,
+[0.727][INFO]: RESPONSE InitSession {
    "acceptSslCerts": true,
    "applicationCacheEnabled": false,
    "browserConnectionEnabled": false,
    "browserName": "chrome",
    "chrome": {
-      "userDataDir": "/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.DLMVeC"
+      "userDataDir": "/var/folders/1d/bg_cpcp57t3_s84rmk5wmywr5ndx9k/T/.org.chromium.Chromium.dR3lIQ"
    },
    "cssSelectorsEnabled": true,
    "databaseEnabled": false,
@@ -113,243 +113,1045 @@
    "version": "33.0.1750.117",
    "webStorageEnabled": true
 }
-[0.756][INFO]: COMMAND Navigate {
-   "url": "http://127.0.0.1:55893/"
+[0.729][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:59691/"
 }
-[0.906][INFO]: Waiting for pending navigations...
-[0.925][INFO]: Done waiting for pending navigations
-[1.198][INFO]: Waiting for pending navigations...
-[1.527][INFO]: Done waiting for pending navigations
-[1.527][INFO]: RESPONSE Navigate
-[1.588][INFO]: COMMAND Navigate {
-   "url": "http://127.0.0.1:55893/"
+[0.910][INFO]: Waiting for pending navigations...
+[0.922][INFO]: Done waiting for pending navigations
+[1.184][INFO]: Waiting for pending navigations...
+[1.466][INFO]: Done waiting for pending navigations
+[1.466][INFO]: RESPONSE Navigate
+[1.468][INFO]: COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[1.468][INFO]: Waiting for pending navigations...
+[1.468][INFO]: Done waiting for pending navigations
+[1.494][INFO]: Waiting for pending navigations...
+[1.494][INFO]: Done waiting for pending navigations
+[1.494][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.9263019755017012-1"
+} ]
+[1.496][INFO]: COMMAND GetElementText {
+   "id": "0.9263019755017012-1"
+}
+[1.496][INFO]: Waiting for pending navigations...
+[1.496][INFO]: Done waiting for pending navigations
+[1.510][INFO]: Waiting for pending navigations...
+[1.510][INFO]: Done waiting for pending navigations
+[1.510][INFO]: RESPONSE GetElementText "New Article"
+[1.511][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9263019755017012-1"
+}
+[1.511][INFO]: Waiting for pending navigations...
+[1.511][INFO]: Done waiting for pending navigations
+[1.522][INFO]: Waiting for pending navigations...
+[1.522][INFO]: Done waiting for pending navigations
+[1.522][INFO]: RESPONSE IsElementDisplayed true
+[1.523][INFO]: COMMAND ClickElement {
+   "id": "0.9263019755017012-1"
+}
+[1.524][INFO]: Waiting for pending navigations...
+[1.524][INFO]: Done waiting for pending navigations
+[1.586][INFO]: Waiting for pending navigations...
+[1.586][INFO]: Done waiting for pending navigations
+[1.586][INFO]: RESPONSE ClickElement
+[1.588][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//*[self::input | self::textarea][not(./@type = 'submit' or ./@type = 'image' or ./@type = 'radio' or ./@type = 'checkbox' or ./@type = 'hidden' or ./@type = 'file')][(((./@id = 'Author' or ./@nam..."
 }
 [1.588][INFO]: Waiting for pending navigations...
 [1.588][INFO]: Done waiting for pending navigations
-[1.629][INFO]: Waiting for pending navigations...
-[1.629][INFO]: Done waiting for pending navigations
-[1.629][INFO]: RESPONSE Navigate
-[1.631][INFO]: COMMAND GetSource {
-
+[1.642][INFO]: Waiting for pending navigations...
+[1.642][INFO]: Done waiting for pending navigations
+[1.642][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.9263019755017012-2"
+} ]
+[1.643][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9263019755017012-2"
 }
-[1.631][INFO]: Waiting for pending navigations...
-[1.631][INFO]: Done waiting for pending navigations
-[1.633][INFO]: Waiting for pending navigations...
-[1.633][INFO]: Done waiting for pending navigations
-[1.633][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 3 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
-[1.680][INFO]: COMMAND GetSource {
-
+[1.643][INFO]: Waiting for pending navigations...
+[1.643][INFO]: Done waiting for pending navigations
+[1.659][INFO]: Waiting for pending navigations...
+[1.659][INFO]: Done waiting for pending navigations
+[1.659][INFO]: RESPONSE IsElementDisplayed true
+[1.660][INFO]: COMMAND IsElementEnabled {
+   "id": "0.9263019755017012-2"
 }
-[1.680][INFO]: Waiting for pending navigations...
-[1.680][INFO]: Done waiting for pending navigations
+[1.660][INFO]: Waiting for pending navigations...
+[1.660][INFO]: Done waiting for pending navigations
+[1.665][INFO]: Waiting for pending navigations...
+[1.665][INFO]: Done waiting for pending navigations
+[1.665][INFO]: RESPONSE IsElementEnabled true
+[1.666][INFO]: COMMAND GetElementTagName {
+   "id": "0.9263019755017012-2"
+}
+[1.666][INFO]: Waiting for pending navigations...
+[1.666][INFO]: Done waiting for pending navigations
+[1.667][INFO]: Waiting for pending navigations...
+[1.667][INFO]: Done waiting for pending navigations
+[1.667][INFO]: RESPONSE GetElementTagName "input"
+[1.668][INFO]: COMMAND GetElementAttribute {
+   "id": "0.9263019755017012-2",
+   "name": "type"
+}
+[1.668][INFO]: Waiting for pending navigations...
+[1.668][INFO]: Done waiting for pending navigations
+[1.674][INFO]: Waiting for pending navigations...
+[1.674][INFO]: Done waiting for pending navigations
+[1.674][INFO]: RESPONSE GetElementAttribute "text"
+[1.675][INFO]: COMMAND GetElementAttribute {
+   "id": "0.9263019755017012-2",
+   "name": "readonly"
+}
+[1.675][INFO]: Waiting for pending navigations...
+[1.675][INFO]: Done waiting for pending navigations
 [1.682][INFO]: Waiting for pending navigations...
 [1.682][INFO]: Done waiting for pending navigations
-[1.682][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 3 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
-[1.683][INFO]: COMMAND GetSource {
-
+[1.682][INFO]: RESPONSE GetElementAttribute null
+[1.683][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.9263019755017012-2"
+   } ],
+   "script": "arguments[0].value = ''"
 }
 [1.683][INFO]: Waiting for pending navigations...
 [1.683][INFO]: Done waiting for pending navigations
-[1.684][INFO]: Waiting for pending navigations...
-[1.684][INFO]: Done waiting for pending navigations
-[1.684][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 3 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
-[1.695][INFO]: COMMAND DeleteAllCookies {
-
+[1.685][INFO]: Waiting for pending navigations...
+[1.685][INFO]: Done waiting for pending navigations
+[1.685][INFO]: RESPONSE ExecuteScript null
+[1.686][INFO]: COMMAND TypeElement {
+   "id": "0.9263019755017012-2",
+   "value": [ "Stanley" ]
 }
-[1.695][INFO]: Waiting for pending navigations...
-[1.695][INFO]: Done waiting for pending navigations
-[1.696][INFO]: Waiting for pending navigations...
-[1.696][INFO]: Done waiting for pending navigations
-[1.696][INFO]: RESPONSE DeleteAllCookies
-[1.697][INFO]: COMMAND Navigate {
-   "url": "about:blank"
-}
-[1.697][INFO]: Waiting for pending navigations...
-[1.697][INFO]: Done waiting for pending navigations
-[1.968][INFO]: Waiting for pending navigations...
-[1.968][INFO]: Done waiting for pending navigations
-[1.968][INFO]: RESPONSE Navigate
-[1.969][INFO]: COMMAND FindElements {
+[1.686][INFO]: Waiting for pending navigations...
+[1.686][INFO]: Done waiting for pending navigations
+[1.828][INFO]: Waiting for pending navigations...
+[1.828][INFO]: Done waiting for pending navigations
+[1.828][INFO]: RESPONSE TypeElement
+[1.830][INFO]: COMMAND FindElements {
    "using": "xpath",
-   "value": "/html/body/*"
+   "value": ".//*[self::input | self::textarea][not(./@type = 'submit' or ./@type = 'image' or ./@type = 'radio' or ./@type = 'checkbox' or ./@type = 'hidden' or ./@type = 'file')][(((./@id = 'Title' or ./@name..."
 }
-[1.969][INFO]: Waiting for pending navigations...
-[1.969][INFO]: Done waiting for pending navigations
-[1.982][INFO]: Waiting for pending navigations...
-[1.982][INFO]: Done waiting for pending navigations
-[1.982][INFO]: RESPONSE FindElements [  ]
-[2.024][INFO]: COMMAND Navigate {
-   "url": "http://127.0.0.1:55893/"
+[1.830][INFO]: Waiting for pending navigations...
+[1.830][INFO]: Done waiting for pending navigations
+[1.852][INFO]: Waiting for pending navigations...
+[1.852][INFO]: Done waiting for pending navigations
+[1.852][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.9263019755017012-3"
+} ]
+[1.853][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9263019755017012-3"
 }
-[2.024][INFO]: Waiting for pending navigations...
-[2.024][INFO]: Done waiting for pending navigations
-[2.232][INFO]: Waiting for pending navigations...
-[2.468][INFO]: Done waiting for pending navigations
-[2.468][INFO]: RESPONSE Navigate
-[2.493][INFO]: COMMAND Navigate {
-   "url": "http://127.0.0.1:55893/"
+[1.853][INFO]: Waiting for pending navigations...
+[1.853][INFO]: Done waiting for pending navigations
+[1.863][INFO]: Waiting for pending navigations...
+[1.863][INFO]: Done waiting for pending navigations
+[1.863][INFO]: RESPONSE IsElementDisplayed true
+[1.864][INFO]: COMMAND IsElementEnabled {
+   "id": "0.9263019755017012-3"
 }
-[2.493][INFO]: Waiting for pending navigations...
-[2.493][INFO]: Done waiting for pending navigations
-[2.498][INFO]: Waiting for pending navigations...
-[2.537][INFO]: Done waiting for pending navigations
-[2.537][INFO]: RESPONSE Navigate
-[2.538][INFO]: COMMAND GetSource {
-
+[1.864][INFO]: Waiting for pending navigations...
+[1.864][INFO]: Done waiting for pending navigations
+[1.869][INFO]: Waiting for pending navigations...
+[1.869][INFO]: Done waiting for pending navigations
+[1.869][INFO]: RESPONSE IsElementEnabled true
+[1.870][INFO]: COMMAND GetElementTagName {
+   "id": "0.9263019755017012-3"
 }
-[2.538][INFO]: Waiting for pending navigations...
-[2.538][INFO]: Done waiting for pending navigations
-[2.541][INFO]: Waiting for pending navigations...
-[2.541][INFO]: Done waiting for pending navigations
-[2.541][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 3 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
-[2.543][INFO]: COMMAND GetSource {
-
+[1.870][INFO]: Waiting for pending navigations...
+[1.870][INFO]: Done waiting for pending navigations
+[1.872][INFO]: Waiting for pending navigations...
+[1.872][INFO]: Done waiting for pending navigations
+[1.872][INFO]: RESPONSE GetElementTagName "input"
+[1.873][INFO]: COMMAND GetElementAttribute {
+   "id": "0.9263019755017012-3",
+   "name": "type"
 }
-[2.543][INFO]: Waiting for pending navigations...
-[2.543][INFO]: Done waiting for pending navigations
-[2.544][INFO]: Waiting for pending navigations...
-[2.544][INFO]: Done waiting for pending navigations
-[2.544][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 3 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
-[2.554][INFO]: COMMAND DeleteAllCookies {
-
+[1.873][INFO]: Waiting for pending navigations...
+[1.873][INFO]: Done waiting for pending navigations
+[1.879][INFO]: Waiting for pending navigations...
+[1.879][INFO]: Done waiting for pending navigations
+[1.879][INFO]: RESPONSE GetElementAttribute "text"
+[1.880][INFO]: COMMAND GetElementAttribute {
+   "id": "0.9263019755017012-3",
+   "name": "readonly"
 }
-[2.555][INFO]: Waiting for pending navigations...
-[2.555][INFO]: Done waiting for pending navigations
-[2.555][INFO]: Waiting for pending navigations...
-[2.555][INFO]: Done waiting for pending navigations
-[2.555][INFO]: RESPONSE DeleteAllCookies
-[2.556][INFO]: COMMAND Navigate {
-   "url": "about:blank"
+[1.880][INFO]: Waiting for pending navigations...
+[1.880][INFO]: Done waiting for pending navigations
+[1.886][INFO]: Waiting for pending navigations...
+[1.886][INFO]: Done waiting for pending navigations
+[1.886][INFO]: RESPONSE GetElementAttribute null
+[1.887][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.9263019755017012-3"
+   } ],
+   "script": "arguments[0].value = ''"
 }
-[2.556][INFO]: Waiting for pending navigations...
-[2.556][INFO]: Done waiting for pending navigations
-[2.767][INFO]: Waiting for pending navigations...
-[2.767][INFO]: Done waiting for pending navigations
-[2.767][INFO]: RESPONSE Navigate
-[2.768][INFO]: COMMAND FindElements {
+[1.887][INFO]: Waiting for pending navigations...
+[1.887][INFO]: Done waiting for pending navigations
+[1.888][INFO]: Waiting for pending navigations...
+[1.888][INFO]: Done waiting for pending navigations
+[1.888][INFO]: RESPONSE ExecuteScript null
+[1.889][INFO]: COMMAND TypeElement {
+   "id": "0.9263019755017012-3",
+   "value": [ "La vie en rose" ]
+}
+[1.889][INFO]: Waiting for pending navigations...
+[1.889][INFO]: Done waiting for pending navigations
+[2.112][INFO]: Waiting for pending navigations...
+[2.112][INFO]: Done waiting for pending navigations
+[2.112][INFO]: RESPONSE TypeElement
+[2.114][INFO]: COMMAND FindElements {
    "using": "xpath",
-   "value": "/html/body/*"
+   "value": ".//*[self::input | self::textarea][not(./@type = 'submit' or ./@type = 'image' or ./@type = 'radio' or ./@type = 'checkbox' or ./@type = 'hidden' or ./@type = 'file')][(((./@id = 'Content' or ./@na..."
 }
-[2.768][INFO]: Waiting for pending navigations...
-[2.768][INFO]: Done waiting for pending navigations
-[2.805][INFO]: Waiting for pending navigations...
-[2.805][INFO]: Done waiting for pending navigations
-[2.805][INFO]: RESPONSE FindElements [  ]
-[2.813][INFO]: COMMAND Navigate {
-   "url": "http://127.0.0.1:55893/"
+[2.114][INFO]: Waiting for pending navigations...
+[2.114][INFO]: Done waiting for pending navigations
+[2.158][INFO]: Waiting for pending navigations...
+[2.158][INFO]: Done waiting for pending navigations
+[2.158][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.9263019755017012-4"
+} ]
+[2.159][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9263019755017012-4"
 }
-[2.813][INFO]: Waiting for pending navigations...
-[2.813][INFO]: Done waiting for pending navigations
-[3.025][INFO]: Waiting for pending navigations...
-[3.268][INFO]: Done waiting for pending navigations
-[3.269][INFO]: RESPONSE Navigate
-[3.295][INFO]: COMMAND Navigate {
-   "url": "http://127.0.0.1:55893/"
+[2.159][INFO]: Waiting for pending navigations...
+[2.159][INFO]: Done waiting for pending navigations
+[2.168][INFO]: Waiting for pending navigations...
+[2.168][INFO]: Done waiting for pending navigations
+[2.168][INFO]: RESPONSE IsElementDisplayed true
+[2.169][INFO]: COMMAND IsElementEnabled {
+   "id": "0.9263019755017012-4"
 }
-[3.295][INFO]: Waiting for pending navigations...
-[3.295][INFO]: Done waiting for pending navigations
-[3.300][INFO]: Waiting for pending navigations...
-[3.337][INFO]: Done waiting for pending navigations
-[3.337][INFO]: RESPONSE Navigate
-[3.338][INFO]: COMMAND GetSource {
-
+[2.169][INFO]: Waiting for pending navigations...
+[2.169][INFO]: Done waiting for pending navigations
+[2.174][INFO]: Waiting for pending navigations...
+[2.174][INFO]: Done waiting for pending navigations
+[2.174][INFO]: RESPONSE IsElementEnabled true
+[2.175][INFO]: COMMAND GetElementTagName {
+   "id": "0.9263019755017012-4"
 }
-[3.338][INFO]: Waiting for pending navigations...
-[3.338][INFO]: Done waiting for pending navigations
-[3.341][INFO]: Waiting for pending navigations...
-[3.341][INFO]: Done waiting for pending navigations
-[3.341][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 3 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
-[3.342][INFO]: COMMAND GetSource {
-
+[2.175][INFO]: Waiting for pending navigations...
+[2.175][INFO]: Done waiting for pending navigations
+[2.176][INFO]: Waiting for pending navigations...
+[2.176][INFO]: Done waiting for pending navigations
+[2.176][INFO]: RESPONSE GetElementTagName "input"
+[2.177][INFO]: COMMAND GetElementAttribute {
+   "id": "0.9263019755017012-4",
+   "name": "type"
 }
-[3.342][INFO]: Waiting for pending navigations...
-[3.342][INFO]: Done waiting for pending navigations
-[3.343][INFO]: Waiting for pending navigations...
-[3.343][INFO]: Done waiting for pending navigations
-[3.343][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 3 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
-[3.356][INFO]: COMMAND DeleteAllCookies {
-
+[2.177][INFO]: Waiting for pending navigations...
+[2.177][INFO]: Done waiting for pending navigations
+[2.183][INFO]: Waiting for pending navigations...
+[2.183][INFO]: Done waiting for pending navigations
+[2.183][INFO]: RESPONSE GetElementAttribute "text"
+[2.184][INFO]: COMMAND GetElementAttribute {
+   "id": "0.9263019755017012-4",
+   "name": "readonly"
 }
-[3.356][INFO]: Waiting for pending navigations...
-[3.356][INFO]: Done waiting for pending navigations
-[3.357][INFO]: Waiting for pending navigations...
-[3.357][INFO]: Done waiting for pending navigations
-[3.357][INFO]: RESPONSE DeleteAllCookies
-[3.357][INFO]: COMMAND Navigate {
-   "url": "about:blank"
+[2.185][INFO]: Waiting for pending navigations...
+[2.185][INFO]: Done waiting for pending navigations
+[2.193][INFO]: Waiting for pending navigations...
+[2.193][INFO]: Done waiting for pending navigations
+[2.193][INFO]: RESPONSE GetElementAttribute null
+[2.194][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.9263019755017012-4"
+   } ],
+   "script": "arguments[0].value = ''"
 }
-[3.357][INFO]: Waiting for pending navigations...
-[3.357][INFO]: Done waiting for pending navigations
-[3.614][INFO]: Waiting for pending navigations...
-[3.614][INFO]: Done waiting for pending navigations
-[3.614][INFO]: RESPONSE Navigate
-[3.615][INFO]: COMMAND FindElements {
+[2.194][INFO]: Waiting for pending navigations...
+[2.194][INFO]: Done waiting for pending navigations
+[2.196][INFO]: Waiting for pending navigations...
+[2.196][INFO]: Done waiting for pending navigations
+[2.196][INFO]: RESPONSE ExecuteScript null
+[2.197][INFO]: COMMAND TypeElement {
+   "id": "0.9263019755017012-4",
+   "value": [ "Je soufre dans le monde, mais quand je la vois je me sens bien, tout est bien." ]
+}
+[2.197][INFO]: Waiting for pending navigations...
+[2.197][INFO]: Done waiting for pending navigations
+[3.821][INFO]: Waiting for pending navigations...
+[3.821][INFO]: Done waiting for pending navigations
+[3.821][INFO]: RESPONSE TypeElement
+[3.823][INFO]: COMMAND FindElements {
    "using": "xpath",
-   "value": "/html/body/*"
+   "value": ".//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Create' or ./@value = 'Create') or ./@title = 'Create')] | .//input[./@type = 'image'][./@alt..."
 }
-[3.615][INFO]: Waiting for pending navigations...
-[3.615][INFO]: Done waiting for pending navigations
-[3.627][INFO]: Waiting for pending navigations...
-[3.627][INFO]: Done waiting for pending navigations
-[3.627][INFO]: RESPONSE FindElements [  ]
-[3.636][INFO]: COMMAND Navigate {
-   "url": "http://127.0.0.1:55893/"
+[3.823][INFO]: Waiting for pending navigations...
+[3.823][INFO]: Done waiting for pending navigations
+[3.845][INFO]: Waiting for pending navigations...
+[3.845][INFO]: Done waiting for pending navigations
+[3.845][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.9263019755017012-5"
+} ]
+[3.846][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.9263019755017012-5"
 }
-[3.636][INFO]: Waiting for pending navigations...
-[3.636][INFO]: Done waiting for pending navigations
-[3.844][INFO]: Waiting for pending navigations...
-[3.931][INFO]: Done waiting for pending navigations
-[3.931][INFO]: RESPONSE Navigate
-[3.942][INFO]: COMMAND Navigate {
-   "url": "http://127.0.0.1:55893/"
+[3.846][INFO]: Waiting for pending navigations...
+[3.846][INFO]: Done waiting for pending navigations
+[3.856][INFO]: Waiting for pending navigations...
+[3.856][INFO]: Done waiting for pending navigations
+[3.856][INFO]: RESPONSE IsElementDisplayed true
+[3.857][INFO]: COMMAND IsElementEnabled {
+   "id": "0.9263019755017012-5"
 }
-[3.942][INFO]: Waiting for pending navigations...
-[3.942][INFO]: Done waiting for pending navigations
-[3.960][INFO]: Waiting for pending navigations...
+[3.857][INFO]: Waiting for pending navigations...
+[3.857][INFO]: Done waiting for pending navigations
+[3.862][INFO]: Waiting for pending navigations...
+[3.862][INFO]: Done waiting for pending navigations
+[3.862][INFO]: RESPONSE IsElementEnabled true
+[3.863][INFO]: COMMAND ClickElement {
+   "id": "0.9263019755017012-5"
+}
+[3.863][INFO]: Waiting for pending navigations...
+[3.863][INFO]: Done waiting for pending navigations
+[3.887][INFO]: Waiting for pending navigations...
+[4.004][INFO]: Done waiting for pending navigations
+[4.004][INFO]: RESPONSE ClickElement
+[4.006][INFO]: COMMAND GetSource {
+
+}
+[4.006][INFO]: Waiting for pending navigations...
+[4.006][INFO]: Done waiting for pending navigations
+[4.008][INFO]: Waiting for pending navigations...
+[4.008][INFO]: Done waiting for pending navigations
+[4.008][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 1 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
+[4.011][INFO]: COMMAND GetSource {
+
+}
+[4.011][INFO]: Waiting for pending navigations...
+[4.011][INFO]: Done waiting for pending navigations
+[4.015][INFO]: Waiting for pending navigations...
+[4.015][INFO]: Done waiting for pending navigations
+[4.015][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 1 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
+[4.017][INFO]: COMMAND GetSource {
+
+}
+[4.017][INFO]: Waiting for pending navigations...
+[4.017][INFO]: Done waiting for pending navigations
+[4.018][INFO]: Waiting for pending navigations...
+[4.018][INFO]: Done waiting for pending navigations
+[4.018][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 1 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
+[4.030][INFO]: COMMAND DeleteAllCookies {
+
+}
+[4.030][INFO]: Waiting for pending navigations...
 [4.030][INFO]: Done waiting for pending navigations
-[4.030][INFO]: RESPONSE Navigate
-[4.031][INFO]: COMMAND GetSource {
-
-}
-[4.031][INFO]: Waiting for pending navigations...
-[4.031][INFO]: Done waiting for pending navigations
 [4.033][INFO]: Waiting for pending navigations...
 [4.033][INFO]: Done waiting for pending navigations
-[4.033][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 3 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
-[4.035][INFO]: COMMAND GetSource {
-
-}
-[4.035][INFO]: Waiting for pending navigations...
-[4.035][INFO]: Done waiting for pending navigations
-[4.036][INFO]: Waiting for pending navigations...
-[4.036][INFO]: Done waiting for pending navigations
-[4.036][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 3 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
-[4.049][INFO]: COMMAND DeleteAllCookies {
-
-}
-[4.050][INFO]: Waiting for pending navigations...
-[4.050][INFO]: Done waiting for pending navigations
-[4.050][INFO]: Waiting for pending navigations...
-[4.050][INFO]: Done waiting for pending navigations
-[4.050][INFO]: RESPONSE DeleteAllCookies
-[4.051][INFO]: COMMAND Navigate {
+[4.033][INFO]: RESPONSE DeleteAllCookies
+[4.034][INFO]: COMMAND Navigate {
    "url": "about:blank"
 }
-[4.051][INFO]: Waiting for pending navigations...
-[4.051][INFO]: Done waiting for pending navigations
-[4.372][INFO]: Waiting for pending navigations...
-[4.372][INFO]: Done waiting for pending navigations
-[4.372][INFO]: RESPONSE Navigate
-[4.373][INFO]: COMMAND FindElements {
+[4.034][INFO]: Waiting for pending navigations...
+[4.034][INFO]: Done waiting for pending navigations
+[4.266][INFO]: Waiting for pending navigations...
+[4.266][INFO]: Done waiting for pending navigations
+[4.266][INFO]: RESPONSE Navigate
+[4.267][INFO]: COMMAND FindElements {
    "using": "xpath",
    "value": "/html/body/*"
 }
-[4.373][INFO]: Waiting for pending navigations...
-[4.373][INFO]: Done waiting for pending navigations
-[4.387][INFO]: Waiting for pending navigations...
-[4.387][INFO]: Done waiting for pending navigations
-[4.387][INFO]: RESPONSE FindElements [  ]
-[4.391][INFO]: COMMAND Quit {
+[4.267][INFO]: Waiting for pending navigations...
+[4.267][INFO]: Done waiting for pending navigations
+[4.280][INFO]: Waiting for pending navigations...
+[4.280][INFO]: Done waiting for pending navigations
+[4.280][INFO]: RESPONSE FindElements [  ]
+[4.286][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:59691/"
+}
+[4.286][INFO]: Waiting for pending navigations...
+[4.286][INFO]: Done waiting for pending navigations
+[4.500][INFO]: Waiting for pending navigations...
+[4.725][INFO]: Done waiting for pending navigations
+[4.725][INFO]: RESPONSE Navigate
+[4.727][INFO]: COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[4.727][INFO]: Waiting for pending navigations...
+[4.727][INFO]: Done waiting for pending navigations
+[4.738][INFO]: Waiting for pending navigations...
+[4.738][INFO]: Done waiting for pending navigations
+[4.738][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.5408256461378187-1"
+} ]
+[4.739][INFO]: COMMAND GetElementText {
+   "id": "0.5408256461378187-1"
+}
+[4.739][INFO]: Waiting for pending navigations...
+[4.739][INFO]: Done waiting for pending navigations
+[4.753][INFO]: Waiting for pending navigations...
+[4.753][INFO]: Done waiting for pending navigations
+[4.753][INFO]: RESPONSE GetElementText "New Article"
+[4.754][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5408256461378187-1"
+}
+[4.754][INFO]: Waiting for pending navigations...
+[4.754][INFO]: Done waiting for pending navigations
+[4.763][INFO]: Waiting for pending navigations...
+[4.763][INFO]: Done waiting for pending navigations
+[4.763][INFO]: RESPONSE IsElementDisplayed true
+[4.764][INFO]: COMMAND ClickElement {
+   "id": "0.5408256461378187-1"
+}
+[4.764][INFO]: Waiting for pending navigations...
+[4.764][INFO]: Done waiting for pending navigations
+[4.839][INFO]: Waiting for pending navigations...
+[4.839][INFO]: Done waiting for pending navigations
+[4.839][INFO]: RESPONSE ClickElement
+[4.841][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//*[self::input | self::textarea][not(./@type = 'submit' or ./@type = 'image' or ./@type = 'radio' or ./@type = 'checkbox' or ./@type = 'hidden' or ./@type = 'file')][(((./@id = 'Author' or ./@nam..."
+}
+[4.841][INFO]: Waiting for pending navigations...
+[4.841][INFO]: Done waiting for pending navigations
+[4.877][INFO]: Waiting for pending navigations...
+[4.877][INFO]: Done waiting for pending navigations
+[4.877][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.5408256461378187-2"
+} ]
+[4.877][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5408256461378187-2"
+}
+[4.878][INFO]: Waiting for pending navigations...
+[4.878][INFO]: Done waiting for pending navigations
+[4.888][INFO]: Waiting for pending navigations...
+[4.888][INFO]: Done waiting for pending navigations
+[4.888][INFO]: RESPONSE IsElementDisplayed true
+[4.889][INFO]: COMMAND IsElementEnabled {
+   "id": "0.5408256461378187-2"
+}
+[4.889][INFO]: Waiting for pending navigations...
+[4.889][INFO]: Done waiting for pending navigations
+[4.893][INFO]: Waiting for pending navigations...
+[4.894][INFO]: Done waiting for pending navigations
+[4.894][INFO]: RESPONSE IsElementEnabled true
+[4.894][INFO]: COMMAND GetElementTagName {
+   "id": "0.5408256461378187-2"
+}
+[4.894][INFO]: Waiting for pending navigations...
+[4.894][INFO]: Done waiting for pending navigations
+[4.896][INFO]: Waiting for pending navigations...
+[4.896][INFO]: Done waiting for pending navigations
+[4.896][INFO]: RESPONSE GetElementTagName "input"
+[4.896][INFO]: COMMAND GetElementAttribute {
+   "id": "0.5408256461378187-2",
+   "name": "type"
+}
+[4.896][INFO]: Waiting for pending navigations...
+[4.896][INFO]: Done waiting for pending navigations
+[4.903][INFO]: Waiting for pending navigations...
+[4.903][INFO]: Done waiting for pending navigations
+[4.903][INFO]: RESPONSE GetElementAttribute "text"
+[4.904][INFO]: COMMAND GetElementAttribute {
+   "id": "0.5408256461378187-2",
+   "name": "readonly"
+}
+[4.904][INFO]: Waiting for pending navigations...
+[4.904][INFO]: Done waiting for pending navigations
+[4.910][INFO]: Waiting for pending navigations...
+[4.910][INFO]: Done waiting for pending navigations
+[4.910][INFO]: RESPONSE GetElementAttribute null
+[4.911][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.5408256461378187-2"
+   } ],
+   "script": "arguments[0].value = ''"
+}
+[4.911][INFO]: Waiting for pending navigations...
+[4.911][INFO]: Done waiting for pending navigations
+[4.912][INFO]: Waiting for pending navigations...
+[4.912][INFO]: Done waiting for pending navigations
+[4.912][INFO]: RESPONSE ExecuteScript null
+[4.913][INFO]: COMMAND TypeElement {
+   "id": "0.5408256461378187-2",
+   "value": [ "Julio" ]
+}
+[4.913][INFO]: Waiting for pending navigations...
+[4.913][INFO]: Done waiting for pending navigations
+[4.948][INFO]: Waiting for pending navigations...
+[4.948][INFO]: Done waiting for pending navigations
+[4.948][INFO]: RESPONSE TypeElement
+[4.950][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//*[self::input | self::textarea][not(./@type = 'submit' or ./@type = 'image' or ./@type = 'radio' or ./@type = 'checkbox' or ./@type = 'hidden' or ./@type = 'file')][(((./@id = 'Title' or ./@name..."
+}
+[4.950][INFO]: Waiting for pending navigations...
+[4.950][INFO]: Done waiting for pending navigations
+[4.959][INFO]: Waiting for pending navigations...
+[4.959][INFO]: Done waiting for pending navigations
+[4.959][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.5408256461378187-3"
+} ]
+[4.960][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5408256461378187-3"
+}
+[4.960][INFO]: Waiting for pending navigations...
+[4.960][INFO]: Done waiting for pending navigations
+[4.970][INFO]: Waiting for pending navigations...
+[4.970][INFO]: Done waiting for pending navigations
+[4.971][INFO]: RESPONSE IsElementDisplayed true
+[4.971][INFO]: COMMAND IsElementEnabled {
+   "id": "0.5408256461378187-3"
+}
+[4.971][INFO]: Waiting for pending navigations...
+[4.971][INFO]: Done waiting for pending navigations
+[4.976][INFO]: Waiting for pending navigations...
+[4.976][INFO]: Done waiting for pending navigations
+[4.976][INFO]: RESPONSE IsElementEnabled true
+[4.977][INFO]: COMMAND GetElementTagName {
+   "id": "0.5408256461378187-3"
+}
+[4.977][INFO]: Waiting for pending navigations...
+[4.977][INFO]: Done waiting for pending navigations
+[4.978][INFO]: Waiting for pending navigations...
+[4.978][INFO]: Done waiting for pending navigations
+[4.978][INFO]: RESPONSE GetElementTagName "input"
+[4.979][INFO]: COMMAND GetElementAttribute {
+   "id": "0.5408256461378187-3",
+   "name": "type"
+}
+[4.979][INFO]: Waiting for pending navigations...
+[4.979][INFO]: Done waiting for pending navigations
+[4.986][INFO]: Waiting for pending navigations...
+[4.986][INFO]: Done waiting for pending navigations
+[4.986][INFO]: RESPONSE GetElementAttribute "text"
+[4.987][INFO]: COMMAND GetElementAttribute {
+   "id": "0.5408256461378187-3",
+   "name": "readonly"
+}
+[4.987][INFO]: Waiting for pending navigations...
+[4.987][INFO]: Done waiting for pending navigations
+[4.994][INFO]: Waiting for pending navigations...
+[4.994][INFO]: Done waiting for pending navigations
+[4.994][INFO]: RESPONSE GetElementAttribute null
+[4.995][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.5408256461378187-3"
+   } ],
+   "script": "arguments[0].value = ''"
+}
+[4.995][INFO]: Waiting for pending navigations...
+[4.995][INFO]: Done waiting for pending navigations
+[4.996][INFO]: Waiting for pending navigations...
+[4.996][INFO]: Done waiting for pending navigations
+[4.996][INFO]: RESPONSE ExecuteScript null
+[4.997][INFO]: COMMAND TypeElement {
+   "id": "0.5408256461378187-3",
+   "value": [ "La vida en rosa" ]
+}
+[4.997][INFO]: Waiting for pending navigations...
+[4.997][INFO]: Done waiting for pending navigations
+[5.160][INFO]: Waiting for pending navigations...
+[5.160][INFO]: Done waiting for pending navigations
+[5.161][INFO]: RESPONSE TypeElement
+[5.163][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//*[self::input | self::textarea][not(./@type = 'submit' or ./@type = 'image' or ./@type = 'radio' or ./@type = 'checkbox' or ./@type = 'hidden' or ./@type = 'file')][(((./@id = 'Content' or ./@na..."
+}
+[5.163][INFO]: Waiting for pending navigations...
+[5.163][INFO]: Done waiting for pending navigations
+[5.187][INFO]: Waiting for pending navigations...
+[5.187][INFO]: Done waiting for pending navigations
+[5.187][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.5408256461378187-4"
+} ]
+[5.188][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5408256461378187-4"
+}
+[5.188][INFO]: Waiting for pending navigations...
+[5.188][INFO]: Done waiting for pending navigations
+[5.197][INFO]: Waiting for pending navigations...
+[5.197][INFO]: Done waiting for pending navigations
+[5.197][INFO]: RESPONSE IsElementDisplayed true
+[5.198][INFO]: COMMAND IsElementEnabled {
+   "id": "0.5408256461378187-4"
+}
+[5.198][INFO]: Waiting for pending navigations...
+[5.198][INFO]: Done waiting for pending navigations
+[5.203][INFO]: Waiting for pending navigations...
+[5.203][INFO]: Done waiting for pending navigations
+[5.203][INFO]: RESPONSE IsElementEnabled true
+[5.204][INFO]: COMMAND GetElementTagName {
+   "id": "0.5408256461378187-4"
+}
+[5.204][INFO]: Waiting for pending navigations...
+[5.204][INFO]: Done waiting for pending navigations
+[5.205][INFO]: Waiting for pending navigations...
+[5.205][INFO]: Done waiting for pending navigations
+[5.205][INFO]: RESPONSE GetElementTagName "input"
+[5.206][INFO]: COMMAND GetElementAttribute {
+   "id": "0.5408256461378187-4",
+   "name": "type"
+}
+[5.206][INFO]: Waiting for pending navigations...
+[5.206][INFO]: Done waiting for pending navigations
+[5.212][INFO]: Waiting for pending navigations...
+[5.212][INFO]: Done waiting for pending navigations
+[5.212][INFO]: RESPONSE GetElementAttribute "text"
+[5.213][INFO]: COMMAND GetElementAttribute {
+   "id": "0.5408256461378187-4",
+   "name": "readonly"
+}
+[5.213][INFO]: Waiting for pending navigations...
+[5.213][INFO]: Done waiting for pending navigations
+[5.221][INFO]: Waiting for pending navigations...
+[5.221][INFO]: Done waiting for pending navigations
+[5.221][INFO]: RESPONSE GetElementAttribute null
+[5.223][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.5408256461378187-4"
+   } ],
+   "script": "arguments[0].value = ''"
+}
+[5.223][INFO]: Waiting for pending navigations...
+[5.223][INFO]: Done waiting for pending navigations
+[5.225][INFO]: Waiting for pending navigations...
+[5.226][INFO]: Done waiting for pending navigations
+[5.226][INFO]: RESPONSE ExecuteScript null
+[5.227][INFO]: COMMAND TypeElement {
+   "id": "0.5408256461378187-4",
+   "value": [ "Dolor in mundo, cum tamen ego vidi bonum, omne bonum." ]
+}
+[5.227][INFO]: Waiting for pending navigations...
+[5.227][INFO]: Done waiting for pending navigations
+[6.216][INFO]: Waiting for pending navigations...
+[6.216][INFO]: Done waiting for pending navigations
+[6.216][INFO]: RESPONSE TypeElement
+[6.218][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Create' or ./@value = 'Create') or ./@title = 'Create')] | .//input[./@type = 'image'][./@alt..."
+}
+[6.218][INFO]: Waiting for pending navigations...
+[6.218][INFO]: Done waiting for pending navigations
+[6.248][INFO]: Waiting for pending navigations...
+[6.248][INFO]: Done waiting for pending navigations
+[6.248][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.5408256461378187-5"
+} ]
+[6.249][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.5408256461378187-5"
+}
+[6.249][INFO]: Waiting for pending navigations...
+[6.249][INFO]: Done waiting for pending navigations
+[6.258][INFO]: Waiting for pending navigations...
+[6.259][INFO]: Done waiting for pending navigations
+[6.259][INFO]: RESPONSE IsElementDisplayed true
+[6.260][INFO]: COMMAND IsElementEnabled {
+   "id": "0.5408256461378187-5"
+}
+[6.260][INFO]: Waiting for pending navigations...
+[6.260][INFO]: Done waiting for pending navigations
+[6.265][INFO]: Waiting for pending navigations...
+[6.265][INFO]: Done waiting for pending navigations
+[6.265][INFO]: RESPONSE IsElementEnabled true
+[6.265][INFO]: COMMAND ClickElement {
+   "id": "0.5408256461378187-5"
+}
+[6.265][INFO]: Waiting for pending navigations...
+[6.265][INFO]: Done waiting for pending navigations
+[6.315][INFO]: Waiting for pending navigations...
+[6.376][INFO]: Done waiting for pending navigations
+[6.376][INFO]: RESPONSE ClickElement
+[6.377][INFO]: COMMAND GetSource {
 
 }
-[4.442][INFO]: RESPONSE Quit
+[6.377][INFO]: Waiting for pending navigations...
+[6.377][INFO]: Done waiting for pending navigations
+[6.380][INFO]: Waiting for pending navigations...
+[6.380][INFO]: Done waiting for pending navigations
+[6.380][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 1 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
+[6.382][INFO]: COMMAND GetSource {
+
+}
+[6.382][INFO]: Waiting for pending navigations...
+[6.382][INFO]: Done waiting for pending navigations
+[6.390][INFO]: Waiting for pending navigations...
+[6.390][INFO]: Done waiting for pending navigations
+[6.390][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 1 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
+[6.391][INFO]: COMMAND GetSource {
+
+}
+[6.391][INFO]: Waiting for pending navigations...
+[6.391][INFO]: Done waiting for pending navigations
+[6.392][INFO]: Waiting for pending navigations...
+[6.392][INFO]: Done waiting for pending navigations
+[6.392][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 1 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
+[6.434][INFO]: COMMAND DeleteAllCookies {
+
+}
+[6.434][INFO]: Waiting for pending navigations...
+[6.434][INFO]: Done waiting for pending navigations
+[6.437][INFO]: Waiting for pending navigations...
+[6.437][INFO]: Done waiting for pending navigations
+[6.437][INFO]: RESPONSE DeleteAllCookies
+[6.438][INFO]: COMMAND Navigate {
+   "url": "about:blank"
+}
+[6.438][INFO]: Waiting for pending navigations...
+[6.438][INFO]: Done waiting for pending navigations
+[6.641][INFO]: Waiting for pending navigations...
+[6.641][INFO]: Done waiting for pending navigations
+[6.641][INFO]: RESPONSE Navigate
+[6.642][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html/body/*"
+}
+[6.642][INFO]: Waiting for pending navigations...
+[6.642][INFO]: Done waiting for pending navigations
+[6.680][INFO]: Waiting for pending navigations...
+[6.680][INFO]: Done waiting for pending navigations
+[6.680][INFO]: RESPONSE FindElements [  ]
+[6.686][INFO]: COMMAND Navigate {
+   "url": "http://127.0.0.1:59691/"
+}
+[6.686][INFO]: Waiting for pending navigations...
+[6.686][INFO]: Done waiting for pending navigations
+[6.901][INFO]: Waiting for pending navigations...
+[6.997][INFO]: Done waiting for pending navigations
+[6.997][INFO]: RESPONSE Navigate
+[6.998][INFO]: COMMAND FindElements {
+   "using": "css selector",
+   "value": "a"
+}
+[6.998][INFO]: Waiting for pending navigations...
+[6.998][INFO]: Done waiting for pending navigations
+[7.016][INFO]: Waiting for pending navigations...
+[7.016][INFO]: Done waiting for pending navigations
+[7.016][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.738509580027312-1"
+} ]
+[7.017][INFO]: COMMAND GetElementText {
+   "id": "0.738509580027312-1"
+}
+[7.017][INFO]: Waiting for pending navigations...
+[7.017][INFO]: Done waiting for pending navigations
+[7.064][INFO]: Waiting for pending navigations...
+[7.064][INFO]: Done waiting for pending navigations
+[7.064][INFO]: RESPONSE GetElementText "New Article"
+[7.065][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.738509580027312-1"
+}
+[7.065][INFO]: Waiting for pending navigations...
+[7.065][INFO]: Done waiting for pending navigations
+[7.074][INFO]: Waiting for pending navigations...
+[7.075][INFO]: Done waiting for pending navigations
+[7.075][INFO]: RESPONSE IsElementDisplayed true
+[7.075][INFO]: COMMAND ClickElement {
+   "id": "0.738509580027312-1"
+}
+[7.075][INFO]: Waiting for pending navigations...
+[7.075][INFO]: Done waiting for pending navigations
+[7.137][INFO]: Waiting for pending navigations...
+[7.138][INFO]: Done waiting for pending navigations
+[7.138][INFO]: RESPONSE ClickElement
+[7.139][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//*[self::input | self::textarea][not(./@type = 'submit' or ./@type = 'image' or ./@type = 'radio' or ./@type = 'checkbox' or ./@type = 'hidden' or ./@type = 'file')][(((./@id = 'Author' or ./@nam..."
+}
+[7.139][INFO]: Waiting for pending navigations...
+[7.139][INFO]: Done waiting for pending navigations
+[7.150][INFO]: Waiting for pending navigations...
+[7.150][INFO]: Done waiting for pending navigations
+[7.150][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.738509580027312-2"
+} ]
+[7.151][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.738509580027312-2"
+}
+[7.151][INFO]: Waiting for pending navigations...
+[7.151][INFO]: Done waiting for pending navigations
+[7.162][INFO]: Waiting for pending navigations...
+[7.162][INFO]: Done waiting for pending navigations
+[7.162][INFO]: RESPONSE IsElementDisplayed true
+[7.163][INFO]: COMMAND IsElementEnabled {
+   "id": "0.738509580027312-2"
+}
+[7.163][INFO]: Waiting for pending navigations...
+[7.163][INFO]: Done waiting for pending navigations
+[7.168][INFO]: Waiting for pending navigations...
+[7.168][INFO]: Done waiting for pending navigations
+[7.168][INFO]: RESPONSE IsElementEnabled true
+[7.169][INFO]: COMMAND GetElementTagName {
+   "id": "0.738509580027312-2"
+}
+[7.169][INFO]: Waiting for pending navigations...
+[7.169][INFO]: Done waiting for pending navigations
+[7.171][INFO]: Waiting for pending navigations...
+[7.171][INFO]: Done waiting for pending navigations
+[7.171][INFO]: RESPONSE GetElementTagName "input"
+[7.171][INFO]: COMMAND GetElementAttribute {
+   "id": "0.738509580027312-2",
+   "name": "type"
+}
+[7.171][INFO]: Waiting for pending navigations...
+[7.171][INFO]: Done waiting for pending navigations
+[7.178][INFO]: Waiting for pending navigations...
+[7.178][INFO]: Done waiting for pending navigations
+[7.178][INFO]: RESPONSE GetElementAttribute "text"
+[7.178][INFO]: COMMAND GetElementAttribute {
+   "id": "0.738509580027312-2",
+   "name": "readonly"
+}
+[7.178][INFO]: Waiting for pending navigations...
+[7.178][INFO]: Done waiting for pending navigations
+[7.185][INFO]: Waiting for pending navigations...
+[7.185][INFO]: Done waiting for pending navigations
+[7.185][INFO]: RESPONSE GetElementAttribute null
+[7.186][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.738509580027312-2"
+   } ],
+   "script": "arguments[0].value = ''"
+}
+[7.186][INFO]: Waiting for pending navigations...
+[7.186][INFO]: Done waiting for pending navigations
+[7.187][INFO]: Waiting for pending navigations...
+[7.187][INFO]: Done waiting for pending navigations
+[7.187][INFO]: RESPONSE ExecuteScript null
+[7.188][INFO]: COMMAND TypeElement {
+   "id": "0.738509580027312-2",
+   "value": [ "Ceasar" ]
+}
+[7.188][INFO]: Waiting for pending navigations...
+[7.188][INFO]: Done waiting for pending navigations
+[7.271][INFO]: Waiting for pending navigations...
+[7.271][INFO]: Done waiting for pending navigations
+[7.271][INFO]: RESPONSE TypeElement
+[7.273][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//*[self::input | self::textarea][not(./@type = 'submit' or ./@type = 'image' or ./@type = 'radio' or ./@type = 'checkbox' or ./@type = 'hidden' or ./@type = 'file')][(((./@id = 'Title' or ./@name..."
+}
+[7.273][INFO]: Waiting for pending navigations...
+[7.273][INFO]: Done waiting for pending navigations
+[7.295][INFO]: Waiting for pending navigations...
+[7.295][INFO]: Done waiting for pending navigations
+[7.295][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.738509580027312-3"
+} ]
+[7.296][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.738509580027312-3"
+}
+[7.296][INFO]: Waiting for pending navigations...
+[7.296][INFO]: Done waiting for pending navigations
+[7.306][INFO]: Waiting for pending navigations...
+[7.306][INFO]: Done waiting for pending navigations
+[7.306][INFO]: RESPONSE IsElementDisplayed true
+[7.307][INFO]: COMMAND IsElementEnabled {
+   "id": "0.738509580027312-3"
+}
+[7.307][INFO]: Waiting for pending navigations...
+[7.307][INFO]: Done waiting for pending navigations
+[7.311][INFO]: Waiting for pending navigations...
+[7.311][INFO]: Done waiting for pending navigations
+[7.311][INFO]: RESPONSE IsElementEnabled true
+[7.312][INFO]: COMMAND GetElementTagName {
+   "id": "0.738509580027312-3"
+}
+[7.312][INFO]: Waiting for pending navigations...
+[7.312][INFO]: Done waiting for pending navigations
+[7.316][INFO]: Waiting for pending navigations...
+[7.316][INFO]: Done waiting for pending navigations
+[7.316][INFO]: RESPONSE GetElementTagName "input"
+[7.317][INFO]: COMMAND GetElementAttribute {
+   "id": "0.738509580027312-3",
+   "name": "type"
+}
+[7.317][INFO]: Waiting for pending navigations...
+[7.317][INFO]: Done waiting for pending navigations
+[7.323][INFO]: Waiting for pending navigations...
+[7.323][INFO]: Done waiting for pending navigations
+[7.323][INFO]: RESPONSE GetElementAttribute "text"
+[7.324][INFO]: COMMAND GetElementAttribute {
+   "id": "0.738509580027312-3",
+   "name": "readonly"
+}
+[7.324][INFO]: Waiting for pending navigations...
+[7.324][INFO]: Done waiting for pending navigations
+[7.331][INFO]: Waiting for pending navigations...
+[7.331][INFO]: Done waiting for pending navigations
+[7.331][INFO]: RESPONSE GetElementAttribute null
+[7.332][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.738509580027312-3"
+   } ],
+   "script": "arguments[0].value = ''"
+}
+[7.332][INFO]: Waiting for pending navigations...
+[7.332][INFO]: Done waiting for pending navigations
+[7.333][INFO]: Waiting for pending navigations...
+[7.333][INFO]: Done waiting for pending navigations
+[7.333][INFO]: RESPONSE ExecuteScript null
+[7.334][INFO]: COMMAND TypeElement {
+   "id": "0.738509580027312-3",
+   "value": [ "Vita in Rosea" ]
+}
+[7.334][INFO]: Waiting for pending navigations...
+[7.334][INFO]: Done waiting for pending navigations
+[7.491][INFO]: Waiting for pending navigations...
+[7.491][INFO]: Done waiting for pending navigations
+[7.491][INFO]: RESPONSE TypeElement
+[7.494][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//*[self::input | self::textarea][not(./@type = 'submit' or ./@type = 'image' or ./@type = 'radio' or ./@type = 'checkbox' or ./@type = 'hidden' or ./@type = 'file')][(((./@id = 'Content' or ./@na..."
+}
+[7.494][INFO]: Waiting for pending navigations...
+[7.494][INFO]: Done waiting for pending navigations
+[7.513][INFO]: Waiting for pending navigations...
+[7.513][INFO]: Done waiting for pending navigations
+[7.513][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.738509580027312-4"
+} ]
+[7.515][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.738509580027312-4"
+}
+[7.515][INFO]: Waiting for pending navigations...
+[7.515][INFO]: Done waiting for pending navigations
+[7.524][INFO]: Waiting for pending navigations...
+[7.524][INFO]: Done waiting for pending navigations
+[7.524][INFO]: RESPONSE IsElementDisplayed true
+[7.525][INFO]: COMMAND IsElementEnabled {
+   "id": "0.738509580027312-4"
+}
+[7.525][INFO]: Waiting for pending navigations...
+[7.525][INFO]: Done waiting for pending navigations
+[7.529][INFO]: Waiting for pending navigations...
+[7.529][INFO]: Done waiting for pending navigations
+[7.529][INFO]: RESPONSE IsElementEnabled true
+[7.530][INFO]: COMMAND GetElementTagName {
+   "id": "0.738509580027312-4"
+}
+[7.530][INFO]: Waiting for pending navigations...
+[7.530][INFO]: Done waiting for pending navigations
+[7.532][INFO]: Waiting for pending navigations...
+[7.532][INFO]: Done waiting for pending navigations
+[7.532][INFO]: RESPONSE GetElementTagName "input"
+[7.532][INFO]: COMMAND GetElementAttribute {
+   "id": "0.738509580027312-4",
+   "name": "type"
+}
+[7.532][INFO]: Waiting for pending navigations...
+[7.532][INFO]: Done waiting for pending navigations
+[7.539][INFO]: Waiting for pending navigations...
+[7.539][INFO]: Done waiting for pending navigations
+[7.539][INFO]: RESPONSE GetElementAttribute "text"
+[7.541][INFO]: COMMAND GetElementAttribute {
+   "id": "0.738509580027312-4",
+   "name": "readonly"
+}
+[7.541][INFO]: Waiting for pending navigations...
+[7.541][INFO]: Done waiting for pending navigations
+[7.549][INFO]: Waiting for pending navigations...
+[7.549][INFO]: Done waiting for pending navigations
+[7.549][INFO]: RESPONSE GetElementAttribute null
+[7.550][INFO]: COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "0.738509580027312-4"
+   } ],
+   "script": "arguments[0].value = ''"
+}
+[7.550][INFO]: Waiting for pending navigations...
+[7.550][INFO]: Done waiting for pending navigations
+[7.552][INFO]: Waiting for pending navigations...
+[7.552][INFO]: Done waiting for pending navigations
+[7.552][INFO]: RESPONSE ExecuteScript null
+[7.552][INFO]: COMMAND TypeElement {
+   "id": "0.738509580027312-4",
+   "value": [ "Yo sufro en el mundo, pero cuando lo veo me siento bien, todo está bien." ]
+}
+[7.552][INFO]: Waiting for pending navigations...
+[7.553][INFO]: Done waiting for pending navigations
+[8.707][INFO]: Waiting for pending navigations...
+[8.707][INFO]: Done waiting for pending navigations
+[8.707][INFO]: RESPONSE TypeElement
+[8.709][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": ".//input[./@type = 'submit' or ./@type = 'reset' or ./@type = 'image' or ./@type = 'button'][((./@id = 'Create' or ./@value = 'Create') or ./@title = 'Create')] | .//input[./@type = 'image'][./@alt..."
+}
+[8.709][INFO]: Waiting for pending navigations...
+[8.709][INFO]: Done waiting for pending navigations
+[8.720][INFO]: Waiting for pending navigations...
+[8.720][INFO]: Done waiting for pending navigations
+[8.720][INFO]: RESPONSE FindElements [ {
+   "ELEMENT": "0.738509580027312-5"
+} ]
+[8.722][INFO]: COMMAND IsElementDisplayed {
+   "id": "0.738509580027312-5"
+}
+[8.722][INFO]: Waiting for pending navigations...
+[8.722][INFO]: Done waiting for pending navigations
+[8.737][INFO]: Waiting for pending navigations...
+[8.737][INFO]: Done waiting for pending navigations
+[8.737][INFO]: RESPONSE IsElementDisplayed true
+[8.738][INFO]: COMMAND IsElementEnabled {
+   "id": "0.738509580027312-5"
+}
+[8.738][INFO]: Waiting for pending navigations...
+[8.738][INFO]: Done waiting for pending navigations
+[8.743][INFO]: Waiting for pending navigations...
+[8.743][INFO]: Done waiting for pending navigations
+[8.743][INFO]: RESPONSE IsElementEnabled true
+[8.743][INFO]: COMMAND ClickElement {
+   "id": "0.738509580027312-5"
+}
+[8.743][INFO]: Waiting for pending navigations...
+[8.743][INFO]: Done waiting for pending navigations
+[8.795][INFO]: Waiting for pending navigations...
+[8.854][INFO]: Done waiting for pending navigations
+[8.854][INFO]: RESPONSE ClickElement
+[8.855][INFO]: COMMAND GetSource {
+
+}
+[8.856][INFO]: Waiting for pending navigations...
+[8.856][INFO]: Done waiting for pending navigations
+[8.866][INFO]: Waiting for pending navigations...
+[8.866][INFO]: Done waiting for pending navigations
+[8.866][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 1 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
+[8.869][INFO]: COMMAND GetSource {
+
+}
+[8.870][INFO]: Waiting for pending navigations...
+[8.870][INFO]: Done waiting for pending navigations
+[8.871][INFO]: Waiting for pending navigations...
+[8.871][INFO]: Done waiting for pending navigations
+[8.871][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 1 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
+[8.872][INFO]: COMMAND GetSource {
+
+}
+[8.872][INFO]: Waiting for pending navigations...
+[8.872][INFO]: Done waiting for pending navigations
+[8.873][INFO]: Waiting for pending navigations...
+[8.873][INFO]: Done waiting for pending navigations
+[8.873][INFO]: RESPONSE GetSource "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\n  \u003C!--title>BlogTutP7\u003C/title-->\n  \u003Ctitle>The Article Blog | There are 1 articles\u003C/title>\n  \u003Clink data-turbolinks-track=\"true\" href=\"/assets/application.css\" media=\"all\" ..."
+[8.887][INFO]: COMMAND DeleteAllCookies {
+
+}
+[8.887][INFO]: Waiting for pending navigations...
+[8.887][INFO]: Done waiting for pending navigations
+[8.890][INFO]: Waiting for pending navigations...
+[8.890][INFO]: Done waiting for pending navigations
+[8.890][INFO]: RESPONSE DeleteAllCookies
+[8.891][INFO]: COMMAND Navigate {
+   "url": "about:blank"
+}
+[8.891][INFO]: Waiting for pending navigations...
+[8.891][INFO]: Done waiting for pending navigations
+[9.148][INFO]: Waiting for pending navigations...
+[9.148][INFO]: Done waiting for pending navigations
+[9.148][INFO]: RESPONSE Navigate
+[9.149][INFO]: COMMAND FindElements {
+   "using": "xpath",
+   "value": "/html/body/*"
+}
+[9.149][INFO]: Waiting for pending navigations...
+[9.149][INFO]: Done waiting for pending navigations
+[9.161][INFO]: Waiting for pending navigations...
+[9.161][INFO]: Done waiting for pending navigations
+[9.161][INFO]: RESPONSE FindElements [  ]
+[9.165][INFO]: COMMAND Quit {
+
+}
+[9.216][INFO]: RESPONSE Quit

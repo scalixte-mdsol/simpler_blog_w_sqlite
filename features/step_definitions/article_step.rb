@@ -1,3 +1,6 @@
+#require File.join(File.dirname(File.dirname(__FILE__)), '../../../spec/spec_helper.rb')
+require File.expand_path("../../../spec/spec_helper.rb", __FILE__)
+
 Given /^I have articles authored by (.+)$/ do |authors|
   authors.split(', ').each do |author|
     Article.create!(:author => author.sub('and ',''))
@@ -50,7 +53,12 @@ Then /^I should (?:have|see) ([0-9]+) articles?$/ do |count|
 end
 
 When /^I (?:follow|click on) "?(.*?)"?$/ do |link|
-  click_link link
+  #description link do
+  #  it{should have_link(link,href: new_article_path)}
+  #end
+  find("a", :text => link).click
+  #click_button link
+  #click_link link
 end
 
 When /^I (?:fill in|enter a value for) "(.*?)" (?:with|as) "(.*?)"$/ do |field, value|
