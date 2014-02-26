@@ -53,7 +53,7 @@ group :development, :test do
   gem 'webrick'
   gem 'pickle'
   gem 'database_cleaner'
-  gem 'debugger'
+  #gem 'debugger'
   gem 'i18n-missing_translations', '~> 0.0'
   gem 'simplecov', :require => false
   gem 'simplecov-html', :require => false
@@ -73,3 +73,4 @@ gem 'rubocop'
 gem 'rubocop-checkstyle_formatter', require: false
 gem 'brakeman'
 gem  'execjs'
+gem 'jslint', '~> 1.2.0'
