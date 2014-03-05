@@ -1,0 +1,6 @@
+Lint at line 177 character 14: Use a named parameter.
+target = arguments[0] || {},
+
+Lint at line 177 character 14: Stopping.  (1% scanned).
+
+
